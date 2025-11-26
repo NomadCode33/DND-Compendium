@@ -30,7 +30,8 @@ Feel free to explore some of my other projects in my portfolio:
 **Source:** [Source](https://github.com/NomadCode33/DevChronicles/tree/main/Source)
 
 **Ayesha Hair Salon:** [Ayesha Hair Salon](https://github.com/NomadCode33/DevChronicles/tree/main/Ayesha-Hair-Salon)
-<br>
-<br>
 
+## Repositories
 **Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [DevChronicles](https://github.com/NomadCode33/DevChronicles)
