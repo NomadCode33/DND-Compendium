@@ -24,47 +24,47 @@ I structured the project with dedicated HTML, CSS, and JavaScript files per sect
 I started by building out the HTML to mirror the structure of the API response, then added a search input so users could query any spell by name:
 ```
 <section id="search-box">
-		<div class="text-content">
-			<h1 class="uncial title">Spell Directory</h1>
-			<p>Type in a spell</p>
-			<input type="text" class="bar" name="" value="">
-			<button type="button" class="src-btn" name="button">Get Spell</button>
-		</div>
+	<div class="text-content">
+		<h1 class="uncial title">Spell Directory</h1>
+		<p>Type in a spell</p>
+		<input type="text" class="bar" name="" value="">
+		<button type="button" class="src-btn" name="button">Get Spell</button>
+	</div>
 </section>
 ```
 The spell detail layout was structured to accommodate every possible attribute a spell might return, including nested data like class lists, subclasses, and slot-level scaling:
 ```
 <main id="spell-bio">
-		<h2 class="spell-name uncial">Spell</h2>
-		<img class="spell-pic" src="" alt="">
+	<h2 class="spell-name uncial">Spell</h2>
+	<img class="spell-pic" src="" alt="">
 			
 			
-		<section class="key-facts">
-			<section class="text">
-				<h2 class="uncial">Level: <span class="level reg-font"></span></h2>
-				<h2 class="uncial">School: <span class="school reg-font"></span></h2>
-				<h2 class="uncial">Description: <span class="description reg-font"></span></h2>
-				<ul class="descript-slot reg-font"></ul>
-				<h2 class="uncial">Higher Level: <span class="high-level reg-font"></span></h2>
-				<ul class="high-level-descript-slot reg-font"></ul>
-				<h2 class="uncial">Attack Type: <span class="attack-type reg-font"></span></h2>
-				<h2 class="uncial">Damage Type: <span class="damage-type reg-font"></span></h2>
-				<h2 class="uncial">Damage/Heal at Slot Level: <span class="reg-font"></span></h2>
-				<ul class="damage-heal-slot reg-font"></ul>
-				<h2 class="uncial">Casting Time: <span class="cast-time reg-font"></span></h2>
-				<h2 class="uncial">Range: <span class="range reg-font"></span></h2>
-				<h2 class="uncial">Components: <span class="one-comp reg-font"></span></h2>
-				<ul class="components reg-font"></ul>
-				<h2 class="uncial">Duration: <span class="duration reg-font"></span></h2>
-				<h2 class="uncial">Concentration: <span class="concentration reg-font"></span></h2>
-				<h2 class="uncial">Ritual: <span class="ritual reg-font"></span></h2>
-				<h2 class="uncial">Material: <span class="material reg-font"></span></h2>
-				<h2 class="uncial">Class(es): <span class="one-class reg-font"></span></h2>
-				<ul class="class-list reg-font"></ul>
-				<h2 class="uncial">Subclass(es): <span class="one-subclass reg-font"></span></h2>
-				<ul class="subclass-list reg-font"></ul>
-			</section>
+	<section class="key-facts">
+		<section class="text">
+			<h2 class="uncial">Level: <span class="level reg-font"></span></h2>
+			<h2 class="uncial">School: <span class="school reg-font"></span></h2>
+			<h2 class="uncial">Description: <span class="description reg-font"></span></h2>
+			<ul class="descript-slot reg-font"></ul>
+			<h2 class="uncial">Higher Level: <span class="high-level reg-font"></span></h2>
+			<ul class="high-level-descript-slot reg-font"></ul>
+			<h2 class="uncial">Attack Type: <span class="attack-type reg-font"></span></h2>
+			<h2 class="uncial">Damage Type: <span class="damage-type reg-font"></span></h2>
+			<h2 class="uncial">Damage/Heal at Slot Level: <span class="reg-font"></span></h2>
+			<ul class="damage-heal-slot reg-font"></ul>
+			<h2 class="uncial">Casting Time: <span class="cast-time reg-font"></span></h2>
+			<h2 class="uncial">Range: <span class="range reg-font"></span></h2>
+			<h2 class="uncial">Components: <span class="one-comp reg-font"></span></h2>
+			<ul class="components reg-font"></ul>
+			<h2 class="uncial">Duration: <span class="duration reg-font"></span></h2>
+			<h2 class="uncial">Concentration: <span class="concentration reg-font"></span></h2>
+			<h2 class="uncial">Ritual: <span class="ritual reg-font"></span></h2>
+			<h2 class="uncial">Material: <span class="material reg-font"></span></h2>
+			<h2 class="uncial">Class(es): <span class="one-class reg-font"></span></h2>
+			<ul class="class-list reg-font"></ul>
+			<h2 class="uncial">Subclass(es): <span class="one-subclass reg-font"></span></h2>
+			<ul class="subclass-list reg-font"></ul>
 		</section>
+	</section>
 </main>
 ```
 
