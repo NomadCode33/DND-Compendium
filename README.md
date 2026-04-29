@@ -1,10 +1,7 @@
 # D&D Compendium
-## CURRENTLY IN DEVELOPMENT
-### Updates will be shown in the dev log regarding its progress
-
 The D&D Compendium is a fully responsive web app built from scratch as an interactive resource for D&D players, currently in development. With a sleek, user-friendly design and a third-party API powering dynamic search across spells, classes, races, and more, it provides an engaging, intuitive experience that puts all the information players need right at their fingertips.
 
-**Link to project:** *Will be provided once project is complete*
+**Link to project:** https://dnd-compendium.onrender.com/
 
 <img src="./assets/d&dfrontpage.png" img alt = "D&D Compendium Front Page"/>
 
@@ -20,11 +17,13 @@ The D&D Compendium is a fully responsive web app built from scratch as an intera
 
 *Description will be available once the project is complete*
 
-## Dev Log
-**Date:** 
+## Optimizations
+Although the layout is fine and beautiful, the problem lies within the code structure. I did all of this in vanilla JavaScript, which is fine for now, but for the later scope of the project things will slowly start to add up. My code is has repetive components that will be the same for all the pages of the compendium. This makes everything not dry and will bloat up in memory. To make things easier for me I need to my codebase into React. Reusuable components and using hooks like useEffect() can make website construction easier to make and manage.
+
+### Development log coming soon
 
 ## Lessons Learned:
-*Summary will come once the project is complete*
+I learned that having frontend frameworks like React can help with the heavy lifting of creating websites.
 
 ## More Projects:
 Feel free to explore some of my other projects in my portfolio:
